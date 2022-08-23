@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color-links: #fff;
+  --color-button: #ff4820;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(/assets/blur-background-left.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background: #040c18;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color-links);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 54px;
+}
+
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin-top: 55px;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 2rem;
+
+}
+
+.menu ul il {
+  
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.menu img {
+  padding-right: 69px;
+}
+
+.login {
+  margin-left: 137px;
+}
